@@ -1,0 +1,88 @@
+/* Universal Selector */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Index & Basic Selector */
+
+body {
+    padding: 10px;
+    background-color: rgb(250, 250, 205);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px;
+    background-color: rgb(255, 185, 80);
+}
+
+a, .return-anchor {
+    text-decoration: none;
+}
+
+ul {
+    width: auto;
+    text-align: center;
+}
+
+figure {
+    height: 200px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px 15px;
+}
+
+figure:last-of-type {
+    margin-bottom: 100px;
+}
+
+figcaption {
+    background-color: rgb(255, 255, 69);
+    border: 3px solid rgb(255, 140, 0);
+    margin: 0 auto;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border: 3px solid rgb(255, 140, 0);
+}
+
+.li-index {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* Recipes Selector */
+h2, p, ol, .ingredients{
+    margin: 10px;
+}
+
+.return-anchor, .recipe-img {
+    margin-left: 10px;
+}
+
+.return-anchor {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.ingredients {
+    text-align: left;
+}
+
+li {
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 20px;
+}

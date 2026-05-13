@@ -2,4 +2,6 @@
 
 The Odin Project
 Project: Recipes
-41% Complete
+
+Initial Creation: 41% Complete
+Added CSS + Element Modification: 52% Complete
